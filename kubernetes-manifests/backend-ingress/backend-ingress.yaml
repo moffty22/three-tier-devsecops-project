@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: api.edsam.shop
+    - host: k8s-threetie-backendi-89d961f034-1709322111.eu-west-2.elb.amazonaws.com
       http:
         paths:
           - path: /api
